@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from "react";
 
 type Props = {};
@@ -15,7 +16,7 @@ const Header = (props: Props) => {
       }
     });
   }
-  
+
   return <div>Header</div>;
 };
 
